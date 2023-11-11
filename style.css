@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Lobster&family=Permanent+Marker&display=swap');
+#circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: darkmagenta;
+
+}
+@media (max-width:768px) {
+    #circle{
+    width: 13px;
+    height: 13px;
+    padding-left: 10px;
+    }
+}
+#title{
+    font-size:30px ;
+}
+#logo-parent{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    padding: 10px;
+}
+#a-tag{
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    #a-tag{
+        font-size: 15px;
+    }
+}
+#line{
+    background-color: black;
+    width: 1px;
+    height: 15px;
+    margin: 7px 7px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media(max-width:768px){
+    #header{
+        padding:15px;
+    }
+}
+@media(max-width:768px){
+    #title{
+        font-size: 12px;
+        
+    }
+}
+#nav{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:768px) {
+    #nav{
+        padding-right: 30px;
+
+    }
+}
+#profile{
+      width: 270px;
+      height: 270px;
+      border-radius: 100%;
+      object-fit: cover;
+}
+@media (max-width:768px) {
+    #profile{
+        width: 150px;;
+        height: 150px;
+    }
+    
+}
+#helo{
+    font-size: 70px;
+    font-weight: lighter;
+   font-family: 'Lobster', sans-serif;
+
+
+}
+@media (max-width:768px) {
+    #helo{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    
+}
+#main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+@media (max-width:768px) {
+    #main{
+       display: flex;
+        margin-top: 40px;
+    }
+}
+#text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: monospace;
+}
+@media (max-width:768px) {
+   #About{
+    font-size: 20px;
+   } 
+}
+#description{
+    max-width: 350px;
+}
+@media (max-width:768px) {
+    #description{
+        font-size: small;
+        max-width: 150px;
+    }
+}
+#button{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+#Resume{
+    width: 70px;
+    height: 70px;
+    background-color: lightseagreen;
+    border-radius: 100%;
+    border-color:rgba(114, 11, 71, 0.705);
+    border-width: 1px;
+}
+@media (max-width:768px) {
+    #Resume{
+    width: 50px;
+    height:50px;
+    font-size: 10px;
+    }
+}
+#Contact{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(185, 5, 59);
+    border-radius: 100%;
+    border-width: 1px;
+    border-color:rgba(14, 48, 6, 0.705);
+}
+@media (max-width:768px) {
+    #Contact{
+    width: 52px;
+    height:52px;
+    font-size: 10px;
+    }
+}
+#Resume:hover{
+    background-color: antiquewhite;
+    transition-duration: 100ms;
+}
+#Contact:hover{
+    background-color: antiquewhite;
+    transition-duration: 100ms;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+@media (max-width:768px) {
+    #footer{
+        font-size: 12px;
+        display: flex;
+       }
+    
+}
+#resume-title {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  @media (max-width:768px) {
+    #resume-title{
+        align-items: center;
+        font-size: 25px;
+    }
+  }
+  #resume-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width:768px) {
+    #resume-main{
+        display: flex;
+        align-items: center;
+    }
+    
+  }
+  #year {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  @media (max-width:768px) {
+    #year{
+     display:block;
+     align-items: center;
+     font-size: 10px;
+     justify-content: center;
+     padding: 30px;
+    }
+  }
+  #date {
+    margin-top: 5px;
+  }
+  
+  #education{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  @media (max-width:768px) {
+    #education{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  #masters {
+    display: flex;
+    gap: 25px;
+  }
+  #b.tech{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #flex{
+    display: flex;
+    align-items: center;
+
+  }
+  #para-btech{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  @media (max-width:768px) {
+    #para-btech{
+        
+        display: block;
+        font-size: 12px;
+        
+    }
+  }
+  #contact-page{
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    gap: 8px;
+  }
+  @media (max-width:768px) {
+    #contact-page{
+        display: flex;
+        padding-left: 100px;
+    }
+  }
+  #parent-contact{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #contact{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  @media (max-width:768px) {
+    #contact{
+     font-size: 20px;
+    }
+}
+#desc{
+    font-size: 20px;
+    font-family: cursive;
+}
+@media (max-width:768px) {
+    #desc{
+        font-size: 15px;
+    }
+}
+  #phone{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  @media (max-width:768px) {
+    #phone{
+        font-size: 20px;
+    }
+}
+#cal{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+@media (max-width:768px) {
+    #cal{
+        font-size: 15px;
+    }
+}
+  #email{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  @media (max-width:768px) {
+    #email{
+        font-size: 20px;
+    }
+}
+#mail{
+    font-size: 18px;
+    font-family:cursive;
+    font-weight: lighter;
+}
+@media (max-width:768px) {
+    #mail{
+        font-size: 15px;
+    }
+}
+@media (max-width:768px) {
+   #inter-para{
+    font-size: 12px;
+
+   } 
+}
+
+ 
